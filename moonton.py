@@ -48,7 +48,7 @@ except ImportError:
     'Please restart this tools'
   )
 
-api = 'https://mtacc.mobilelegends.com/inapp/login'
+api = 'https://mtacc.mobilelegends.com/'
 
 class MOONTON:
   def __init__(self, url):
@@ -318,8 +318,8 @@ class MOONTON:
         user
       )
       headers = {
-        'host': 'mtacc.mobilelegends.com/inapp/login',
-        'user-agent': 'Mozilla/5.0',
+        'host': 'api.mobilelegends.com',
+        'user-agent': 'Mozilla/5.0 (Linux; Android 10; Redmi Note 7 Build/QKQ1.190910.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/96.0.4664.104 Mobile Safari/537.36',
         'x-requested-with': 'com.mobile.legends' # Fake requests
       }
       if with_porxy == True:
